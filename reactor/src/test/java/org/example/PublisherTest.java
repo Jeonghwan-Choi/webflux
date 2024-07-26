@@ -1,8 +1,10 @@
+package org.example;
+
 import org.example.Publisher;
 import org.junit.jupiter.api.Test;
 import reactor.test.StepVerifier;
 
-public class PublisherTest {
+class PublisherTest {
 
     private Publisher publisher =  new Publisher();
 
